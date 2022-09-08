@@ -2,6 +2,7 @@
 :root{
   --bg: #fff;
   --fill-btn-text: #fff;
+  --header: rgb(235, 235, 235);
   --main: #FD6D2C;
   --h1: #000;
   --p: #939393;
@@ -111,19 +112,22 @@ a:active svg{
   display: none!important;
 }
 @media only screen and (max-width: 800px) {
-  header .links{
-    display: none;
+  header{
+    height: 5%;
+    .links{
+      display: none;
+    }
+    .menu-btn{
+      display: block;
+    }
+    .title{
+      font-size: 1.5em;
+    } 
+
   }
-  header .menu-btn,
   .side-menu,
   .fullscreen{
     display: block!important;
-  }
-  header .title{
-    font-size: 1.5em;
-  } 
-  header{
-    height: 5%
   }
   .btn{
     margin: 0 auto;

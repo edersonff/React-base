@@ -1,0 +1,15 @@
+.halfpage-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main);
+    color: white;
+    margin: 1em 0;
+    .title{
+        font-size: 1.5em;
+        font-weight: 500;
+        margin: 0.5em 0;
+    }
+}

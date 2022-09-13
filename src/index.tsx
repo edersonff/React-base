@@ -7,9 +7,8 @@ import {
   Route,
  } from 'react-router-dom';
 import Home from './Screens/Home/Home';
-import Error from './Error/Error';
-import Header from './Header/Header';
 import Layout from './Layout/Layout';
+import Error from './Screens/Error/Error';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(

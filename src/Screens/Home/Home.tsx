@@ -1,4 +1,5 @@
 import React from 'react';
+import FullPage from '../../Components/FullPage/FullPage';
 import HalfPage from '../../Components/HalfPage/HalfPage';
 
 function Home({}) {
@@ -10,9 +11,9 @@ function Home({}) {
             <HalfPage>
                 <h1>Bem vindo</h1>
             </HalfPage>
-            <HalfPage>
+            <FullPage>
                 <h1>Bem vindo</h1>
-            </HalfPage>
+            </FullPage>
         </>
     );
 }

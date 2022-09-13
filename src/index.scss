@@ -7,7 +7,9 @@
   --h1: #000;
   --p: #939393;
   --a: #7B7B7B;
+  --a-select: #ffa982;
   --title: #828282;
+  --footer: rgb(219, 219, 219);
 }
 img,a{
   -webkit-user-drag: none;
@@ -110,6 +112,14 @@ a:active svg{
 .fullscreen,
 .side-menu{
   display: none!important;
+}
+/* ScrollBar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--main);
+  padding: 10px;
 }
 @media only screen and (max-width: 800px) {
   header{

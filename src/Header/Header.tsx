@@ -6,6 +6,7 @@ import {IoChatboxEllipsesOutline} from 'react-icons/io5'
 import {MdOutlineContacts} from 'react-icons/md'
 import './Header.scss'
 import packageInfo from '../../package.json';
+import screensList from '../data/screensList';
 
 function Header() {  
     const {name} = packageInfo;
@@ -55,10 +56,11 @@ function Header() {
                     {name}
                 </div>
                 <div className="links flex align">
-                    <Link to='/'>Home</Link>
-                    <Link to='/projetos'>Projetos</Link>
-                    <Link to='/sobre'>Sobre</Link>
-                    <Link to='/contato'>Contato</Link>
+                    {screensList.map((screen)=>{
+                        return(
+                            <Link style={{color: location.pathname == screen.route ? 'var(--a-select)' : ''}} to={screen.route}>{screen.title}</Link>
+                        );
+                    })}
                 </div>
             </header>
         </>

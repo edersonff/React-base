@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './HalfPage.scss';
+import './FullPage.scss';
 
 function FullPage({children} : { children: React.ReactNode }) {
   return (
-    <div className='halfpage-container'>
+    <div className='fullpage-container'>
         {children}
     </div>
   );

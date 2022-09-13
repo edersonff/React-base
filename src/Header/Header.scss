@@ -12,7 +12,7 @@ header.navbar{
     .title{
       color: var(--title);
       font-size: 30px;
-      font-weight: 500;
+      font-weight: 200;
       letter-spacing: -0.055em;
     }
     .links{
@@ -20,7 +20,7 @@ header.navbar{
       justify-content: space-evenly;
     }
     .links a{
-      font-weight: bold;
+      font-weight: 400;
       letter-spacing: -0.035em;
       font-size: 1.1em;
       margin: 0 5%;
@@ -31,7 +31,6 @@ header.navbar{
       display: none;
       width: 45px;
       height: 45px;
-      // background-image: url('/public/img/Icons/Menu.png');
       background-size: cover;
       cursor: pointer;
       opacity: 0.5;

@@ -7,7 +7,7 @@ function Error({}) {
         <div className='center-container flex align'>
             <div className="center flex align">
                 <h1>Não encontrado :(</h1>
-                <Link to="/" className="btn fill flex align">Voltar pro incio</Link>
+                <Link to="/" className="btn fill flex align">Voltar para o início</Link>
             </div>
         </div>
     );

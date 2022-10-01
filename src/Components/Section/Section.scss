@@ -4,8 +4,12 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: var(--main);
-    color: white;
+    background-color: var(--bg);
     position: relative;
     overflow: hidden;
+}
+.section-content{
+    height: 100%;
+    width: 100%;
+    
 }

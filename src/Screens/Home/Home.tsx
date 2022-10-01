@@ -40,7 +40,11 @@ function Home({}) {
             <img className='background-image' id="home-background" src="https://s3-alpha-sig.figma.com/img/fba6/8b81/56774195c48407265dd2e18e3827f0df?Expires=1664150400&Signature=euNHnxFhskmJng~4mA2Hce263941N8tQLNV78KrDxvNm8dwEK95JAzHeAkS4FSlLE3ulXDYdNbOHdTnFjeIaumSSCjXkvfVfJOvgYyh6gMRMH5a9gvxCgYKFspMzAyaFHr-usaGD0bvS07k2hoePXaVZmT43~6VCDTeUAplmLcs2aurqOsYv8OOqzyterG0WJOprcI0kvVPzClsF-0axheVifHbUBDcX4h2Kj4WhPztB4GwewUngdehu-hlyKl6hhnHhExnLluXBHJkmqa2kwHeqI6hNi9qiNAR1vy2iUBlAVj9mT53fhWZyehziFl6RuM~INmllLfJgTz0Ibe5KSg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="Imagem de fundo" />
         </HalfPage>
         <Section>
-            <h1 className='title'>TITULO do cont</h1>
+            <div className="content">
+                <div className="section-content">
+                    <h1 className='title'>TITULO do cont</h1>
+                </div>
+            </div>
         </Section>
     </div>
     );
